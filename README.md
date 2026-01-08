@@ -8,8 +8,8 @@ python -m venv venv
 source venv/Scripts/activate
 pip install -r requirements.txt
 
-När den virtuella miljön är aktiv, kör programmet med:bash
-python app/main.py
+När den virtuella miljön är aktiv, kör programmet med:py -m app.main
+
 
 Programmet startar i terminalen och visar en meny där användaren kan:
 Lägga till utgifter
